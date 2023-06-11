@@ -62,5 +62,28 @@ $(document).ready(function(){
           processLang(data);
         }
       });
-    };  
+    };
+    var typed = new Typed('#class', {
+      strings: ['public class JavaDeveloper {'],
+      typeSpeed: 45,
+      showCursor: false,
+    });
+    var typed = new Typed('#nameAtt', {
+      strings: ['     private String name;'],
+      typeSpeed: 50,
+      showCursor: false,
+      startDelay: 2000,
+    });
+    var typed = new Typed('#emailAtt', {
+      strings: ['     private String email;'],
+      typeSpeed: 50,
+      showCursor: false,
+      startDelay: 2500,
+    });
+    var typed = new Typed('#telfAtt', {
+      strings: ['     private String telf;'],
+      typeSpeed: 50,
+      showCursor: false,
+      startDelay: 4200,
+    });
   });
