@@ -282,6 +282,10 @@ h5 {
     float: right;
 }
 
+#about .buttonsAbout {
+    margin-top: 10px;
+}
+
 /* end about */
 
 /* start portfolio */
